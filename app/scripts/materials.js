@@ -1,13 +1,14 @@
 /* global firebase, window, document */
 
 var config = {
-  apiKey: 'AIzaSyAwaNA5rni6aWtECtohxJ5Rv_n0IjyBBXQ',
-  authDomain: 'pwapp-5f5ee.firebaseapp.com',
-  databaseURL: 'https://pwapp-5f5ee.firebaseio.com',
-  projectId: 'pwapp-5f5ee',
-  storageBucket: 'pwapp-5f5ee.appspot.com',
-  messagingSenderId: '607416953433'
+  apiKey: "AIzaSyDqqf7QUDwd5luyo-SoNSRc2DK00vXkgSA",
+  authDomain: "dcs-doctors.firebaseapp.com",
+  databaseURL: "https://dcs-doctors.firebaseio.com",
+  projectId: "dcs-doctors",
+  storageBucket: "dcs-doctors.appspot.com",
+  messagingSenderId: "900480132916"
 };
+
 
 firebase.initializeApp(config);
 

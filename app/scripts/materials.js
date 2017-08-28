@@ -1,12 +1,12 @@
 /* global firebase, window, document */
 
 var config = {
-  apiKey: "AIzaSyDqqf7QUDwd5luyo-SoNSRc2DK00vXkgSA",
-  authDomain: "dcs-doctors.firebaseapp.com",
-  databaseURL: "https://dcs-doctors.firebaseio.com",
-  projectId: "dcs-doctors",
-  storageBucket: "dcs-doctors.appspot.com",
-  messagingSenderId: "900480132916"
+  apiKey: 'AIzaSyDqqf7QUDwd5luyo-SoNSRc2DK00vXkgSA',
+  authDomain: 'dcs-doctors.firebaseapp.com',
+  databaseURL: 'https://dcs-doctors.firebaseio.com',
+  projectId: 'dcs-doctors',
+  storageBucket: 'dcs-doctors.appspot.com',
+  messagingSenderId: '900480132916'
 };
 
 

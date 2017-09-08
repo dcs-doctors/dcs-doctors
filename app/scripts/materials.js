@@ -112,7 +112,7 @@ function handleButtonClick(evt) {
       name: document.getElementById('file-name').value || file.name,
       url: uploadTask.snapshot.downloadURL,
       type: file.type,
-      createdAt: new Date()
+      createdAt: new Date().toString()
     };
 
     // Submit record

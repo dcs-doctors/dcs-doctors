@@ -119,6 +119,8 @@ function handleButtonClick(evt) {
 
     db.ref('records/' + record.createdAt).set(record);
 
+    document.querySelector('#file-name').value = '';
+    document.querySelector('#file').value = '';
     document.querySelector('.loader').style.display = 'none';
   });
 }
